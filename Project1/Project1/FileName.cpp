@@ -51,6 +51,8 @@ int main() {
     setlocale(LC_ALL, "ru");
     srand(time(NULL));
 
+    cout << "\t\t\t\t\tГенератор паролей" << endl << endl;
+
     int lenght;
     cout << "Введите длинну пароля: ";
     cin >> lenght;
